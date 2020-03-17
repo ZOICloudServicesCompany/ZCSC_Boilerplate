@@ -1,0 +1,69 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #000000; }
+
+* {
+  font-family: 'Cantata One', serif; }
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #000000; }
+
+.zbar {
+  border: #ca5151; }
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer; }
+
+.nav-link {
+  margin-right: 1em !important; }
+
+.nav-link:hover {
+  color: #000; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.companyname {
+  height: 70vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  text-align: right;
+  padding-right: 20rem; }
+
+.namecompany {
+  color: #fcfcfc;
+  font-size: 4rem; }
+
+.firstletter {
+  color: #ca5151; }
+
+hr {
+  color: white;
+  text-align: left;
+  color: #fcfcfc;
+  height: 4px;
+  margin-top: -.75rem;
+  margin-left: -2.5rem;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(250, 0, 0, 0.35), #ece8e8);
+  width: 13%;
+  padding-right: 20rem; }
+
+.biline {
+  margin-top: -.75rem;
+  font-size: 1.5 rem; }
+
+img {
+  height: 4.25rem;
+  width: auto;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: all;
+  transition-timing-function: ease-in;
+  transition-duration: 2s; }

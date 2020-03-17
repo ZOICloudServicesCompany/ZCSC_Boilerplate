@@ -1,0 +1,25 @@
+{
+  "name": "zcsc",
+  "version": "1.0.0",
+  "description": "landing page for ZCSC",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZOICloudServicesCompany/Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZOICloudServicesCompany/Boilerplate/issues"
+  },
+  "homepage": "https://github.com/ZOICloudServicesCompany/Boilerplate#readme",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}
